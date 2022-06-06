@@ -2,6 +2,7 @@ package questao39;
 /* Escreva as classes LivroLivraria e LivroBiblioteca que herdam da classe Livro. Quais as diferenças entre as duas classes, e que campos elas têm em comum? Defina os atributos de cada classe e escreva um aplicativo de teste que demonstre o uso das classes criadas.
 */
 
+
 public class Principal {
     public static void main(String[] args) {
         LivroLivraria livro = new LivroLivraria("Emanoel1", "SP", "La POO 1", "Terror", 1, 2020, 10, 3);
@@ -24,6 +25,7 @@ public class Principal {
         System.out.println("Dados diferentes: na classe biblioteca temos os atributos dia, mes, hora, status e empresta, pois asssim conseguimos ver a data e os status se pode emprestar ou nao, já na classe livraria, temos o preço e quantidade, para que assim possamos verificar o preco por unidade e a quantidade disponivel");
         
         System.out.println();
+    
 
     }
 }

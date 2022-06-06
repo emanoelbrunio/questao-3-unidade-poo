@@ -7,8 +7,8 @@ public class Pessoa {
     private String cpf;
     private String sexo;
 
-    Pessoa(String nome, int idade, String cpf, String sexo){
-        this.nome = nome;
+    Pessoa (String nome, int idade, String cpf, String sexo){
+        this.nome = nome; 
         this.idade = idade;
         this.cpf = cpf;
         this.sexo = sexo;
